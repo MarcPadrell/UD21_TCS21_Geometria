@@ -150,6 +150,11 @@ class GeometriaTest {
 		System.out.println("after()");
 		geometria = null;
 	}
+	
+	@AfterAll
+	public static void testAfterClass() {
+		System.out.println("AfterClass");
+	}
 		
 		
 }
